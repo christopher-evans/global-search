@@ -58,7 +58,7 @@ def run_multiple_iterations(number_of_iterations=10):
     Run multiple iterations of genetic algorithm for question 3.3
     """
 
-    student_password = get_password('ec23050')
+    student_password = get_password('ab21020')
 
     population_size = 200
     max_number_of_generations = 100
@@ -93,7 +93,7 @@ def run_hyperparameter_test():
     Test genetic algorithm with multiple hyperparameters for question 3.4
     """
 
-    student_password = get_password('ec23050')
+    student_password = get_password('ab21020')
 
     population_size = 200
     max_number_of_generations = 400
@@ -135,7 +135,7 @@ def run_command_line():
         prog='search.py',
         description='Search station data provided in a file with various algorithms'
     )
-    parser.add_argument('username', help='EECS username')
+    parser.add_argument('username', help='Username')
     parser.add_argument('-p', '--population_size', default='200', help='Population size')
     parser.add_argument('-m', '--mating_pool_size', default='100', help='Mating pool size')
     parser.add_argument('-a', '--mutation_probability', default='0.1', help='Mutation probability')
